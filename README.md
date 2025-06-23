@@ -47,17 +47,16 @@ The classifier integrates a triage system to support clinical decision-making:
 
 •	If a scan is predicted as normal with high confidence (≥70%), the result is considered reliable.
 
-## Try It Out
-
-You can explore the model and test the application via Hugging Face:
-
-- Model Page: [Kidney CT Classifier on Hugging Face] (https://huggingface.co/Meytal/kidney_normal_CT_classifier_model))  
-
-
 •	If predicted as normal but with low confidence, the scan is flagged for radiologist review.
 
 •	If predicted as abnormal, the scan is automatically flagged for clinical attention.
 
 This approach helps ensure that uncertain or high-risk cases are not missed, supporting timely and accurate diagnosis in clinical workflows.
+
+## Try It Out
+
+You can explore the model and test the application via Hugging Face:
+
+- Model Page: [Kidney CT Classifier on Hugging Face] (https://huggingface.co/Meytal/kidney_normal_CT_classifier_model))  
 
 
